@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_home"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/icn_home"
+        android:title="홈" />
+    <item android:id="@+id/item_data"
+        app:showAsAction="always"
+        android:icon="@drawable/icn_data"
+        android:title="자산" />
+    <item android:id="@+id/item_plus"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/icn_plus"
+        android:title="플러스" />
+    <item android:id="@+id/item_more"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/icn_more"
+        android:title="더보기" />
+</menu>
