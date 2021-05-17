@@ -17,8 +17,9 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="0dp"
         android:layout_height="56dp"
-        android:id="@+id/bnv_main"
         android:background="#FFFFFF"
+        app:itemBackground="@drawable/menu_back"
+        android:id="@+id/bnv_main"
         app:menu="@menu/navi_menu"
         app:labelVisibilityMode="labeled"
         app:itemIconTint="@drawable/navi_color"
