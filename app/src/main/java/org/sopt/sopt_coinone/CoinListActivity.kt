@@ -115,7 +115,5 @@ class CoinListActivity : AppCompatActivity() {
             )
         )
 
-
-
     }
 }
