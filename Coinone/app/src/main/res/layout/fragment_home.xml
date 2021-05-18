@@ -9,6 +9,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="home view" />
+        android:text="home view 여기에 탭레이아웃 추가하기" />
 
 </FrameLayout>
