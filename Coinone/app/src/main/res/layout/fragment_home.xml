@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="home view 여기에 탭레이아웃 추가하기" />
+        android:layout_height="match_parent"/>
 
-</FrameLayout>
+    <TableLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
