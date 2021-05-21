@@ -2,8 +2,10 @@ package org.sopt.coinone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
-import org.sopt.coinone.R
+import org.sopt.coinone.BottomFragmnet.DataFragment
+import org.sopt.coinone.BottomFragmnet.HomeFragment
+import org.sopt.coinone.BottomFragmnet.MoreFragment
+import org.sopt.coinone.BottomFragmnet.PlusFragment
 import org.sopt.coinone.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
