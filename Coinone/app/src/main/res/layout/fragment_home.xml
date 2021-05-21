@@ -7,6 +7,32 @@
     android:layout_height="match_parent"
     tools:context=".BottomFragmnet.HomeFragment">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#0458ff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="@+id/top"
+            app:layout_constraintStart_toStartOf="@+id/top"
+            app:layout_constraintTop_toTopOf="@+id/top"
+            app:layout_constraintBottom_toBottomOf="@id/top"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="239dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
@@ -15,15 +41,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tab" />
 
-
-
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        app:tabSelectedTextColor="#ffffff"
+        app:tabIndicatorColor="#ffffff"
+        app:tabIndicatorHeight="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@+id/top"
+        android:background="#0458ff"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
