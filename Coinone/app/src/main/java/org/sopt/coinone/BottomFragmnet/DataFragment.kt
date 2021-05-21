@@ -1,4 +1,4 @@
-package org.sopt.coinone
+package org.sopt.coinone.BottomFragmnet
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,14 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import org.sopt.coinone.R
 
-class MoreFragment : Fragment() {
+
+class DataFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_more, container, false)
+        return inflater.inflate(R.layout.fragment_data, container, false)
     }
 
 }

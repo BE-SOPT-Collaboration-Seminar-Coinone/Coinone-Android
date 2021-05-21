@@ -1,17 +1,19 @@
-package org.sopt.coinone
+package org.sopt.coinone.HomeFragmnet
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import org.sopt.coinone.R
 
-class GumaeFragment : Fragment(){
+class CoinListFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return layoutInflater.inflate(R.layout.activity_gumae, container, false)
+        return inflater.inflate(R.layout.activity_coin_list, container, false)
     }
 }
+
