@@ -1,10 +1,13 @@
 package org.sopt.coinone.BottomFragmnet
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TableLayout
+import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.fragment_home.*
 import org.sopt.coinone.HomeFragmnet.PagerAdapter
 import org.sopt.coinone.databinding.FragmentHomeBinding
@@ -38,6 +41,7 @@ class HomeFragment : Fragment() {
         PagerAdapter = PagerAdapter(childFragmentManager)
         binding.pager.adapter = PagerAdapter
         binding.tab.setupWithViewPager(pager)
+
 
 
 

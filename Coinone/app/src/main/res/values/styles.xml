@@ -4,7 +4,9 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/top</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#ffffff</item> <!--하단움직이는바색깔-->
+
     </style>
+
 
 </resources>
