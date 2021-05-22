@@ -48,10 +48,11 @@
         app:tabSelectedTextColor="#ffffff"
         app:tabIndicatorColor="#ffffff"
         app:tabIndicatorHeight="2dp"
+        android:background="#0458ff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top"
-        android:background="#0458ff"/>
+    />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
