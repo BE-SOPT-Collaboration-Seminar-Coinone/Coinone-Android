@@ -1,5 +1,5 @@
 package org.sopt.coinone.BottomFragmnet
-
+import android.annotation.SuppressLint
 import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -41,7 +41,6 @@ class HomeFragment : Fragment() {
         PagerAdapter = PagerAdapter(childFragmentManager)
         binding.pager.adapter = PagerAdapter
         binding.tab.setupWithViewPager(pager)
-
 
 
 
