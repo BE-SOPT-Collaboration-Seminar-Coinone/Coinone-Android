@@ -7,5 +7,6 @@ data class MyFavoriteListInfo (
     val price: String,
     val degree: String,
     val percent: String,
-    val state: String
+    val state: String,
+    val graph_image: String
 )
