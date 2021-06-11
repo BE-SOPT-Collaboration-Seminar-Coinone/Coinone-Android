@@ -4,7 +4,7 @@ data class ResponseMyCoinData(
     val status : Int,
     val success : Boolean,
     val message : String,
-    val data: CoinData?
+    val coin: List<CoinData>
 )
 
 data class CoinData(

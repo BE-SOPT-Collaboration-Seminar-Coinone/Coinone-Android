@@ -40,8 +40,8 @@
 
         <ImageView
             android:id="@+id/img_favorite_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_marginTop="11dp"
             android:src="@drawable/icn_logo_klay"
             app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +111,7 @@
 
     <ImageView
         android:id="@+id/img_favorite_graph"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/img_data"
         app:layout_constraintEnd_toEndOf="parent"

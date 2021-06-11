@@ -42,6 +42,9 @@ class MyFavoriteListAdapter : RecyclerView.Adapter<MyFavoriteListAdapter.MyFavor
             if(favoriteListInfo.state == "+"){
                 binding.imgFavoriteState.setImageResource(R.drawable.icn_allow_up)
             }
+            Glide.with(itemView)
+                .load(favoriteListInfo.graph_image)
+                .into(binding.imgFavoriteGraph)
 
         }
     }
